@@ -1,0 +1,16 @@
+# - Config file for the GestionEDT lib
+# It defines the following variables
+#
+# GestionEDT_INCLUDE_DIRS - include directories
+# GestionEDT_LIBRARY_DIRS - library directory (normally not used!)
+# GestionEDT_LIBRARIES - libraries to link against
+ 
+# Tell the user project where to find our headers and libraries
+
+SET(GestionEDT_INCLUDE_DIRS @INSTALL_INCLUDE_DIRS@)
+
+SET(GestionEDT_LIBRARY_DIRS @INSTALL_LIB_DIRS@)
+
+SET(GestionEDT_LIBRARIES @GestionEDT_LIBRARIES@)
+
+SET(GestionEDT_FLAGS @GestionEDT_FLAGS@ )

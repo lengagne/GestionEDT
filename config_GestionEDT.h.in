@@ -1,0 +1,8 @@
+#ifndef GestionEDT_CONFIG_H
+#define GestionEDT_CONFIG_H
+
+#define VERSION_MAJOR @GestionEDT_VERSION_MAJOR@
+#define VERSION_MINOR @GestionEDT_VERSION_MINOR@
+
+#endif
+
