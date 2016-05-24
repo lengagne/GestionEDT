@@ -18,9 +18,21 @@
 
 #include <iostream>
 
+void print_help()
+{
+	std::cout<<"Voici l'aide"<<std::endl;
+}
+
 int main (int argv, char *argc[])
 {
-	std::cout<<" Hello World"<<std::endl;
 	
+	
+	if (argv == 1)
+	{
+		print_help();
+		return 1;
+	}
+	std::cout<<" Programme de gestion d'emploi du temps"<<std::endl;
 	return 1;
+	
 }
